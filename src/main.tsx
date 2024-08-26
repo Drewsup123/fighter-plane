@@ -6,7 +6,7 @@ import './index.css'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <Canvas shadows>
+    <Canvas shadows style={{height: "100%", width: "100%", overflow: "hidden"}}>
       <Suspense fallback={null}>
         <App />
       </Suspense>
