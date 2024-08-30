@@ -17,9 +17,9 @@ function App() {
       <OrbitControls target={[0, 0, 0]} />
       <ambientLight intensity={1} />
       {/* <WorldModel scale={[75, 75, 75]} position={[5, 0, 4]} /> */}
-      <primitive object={gltf.scene} scale={[400, 400, 400]} position={[5, 0, 4]} />
+      <primitive object={gltf.scene} scale={[1200, 1200, 1200]} position={[5, 0, 4]} />
       <JetModel
-        scale={[0.4, 0.4, 0.4]}
+        scale={[0.1, 0.1, 0.1]}
         // position={[0, 10, 0]}
       />
     </>

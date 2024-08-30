@@ -6,7 +6,7 @@ const SkyBox = () => {
     const map = useTexture(LowPolySkyBoxTexture);
     return (
         <mesh>
-            <sphereGeometry args={[200, 50, 50]} />
+            <sphereGeometry args={[1400, 50, 50]} />
             <meshBasicMaterial
                 side={BackSide}
                 map={map}
